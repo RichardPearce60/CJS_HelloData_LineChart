@@ -51,16 +51,15 @@ define( [
 						pointBorderWidth: 0,
 						pointRadius: 4,
 
-            pointHoverRadius: 5,
+            pointHoverRadius: 4,
             pointHoverBorderWidth: 1,
-            pointHoverBorderColor: 'rgba(0,0,0,1)',
-            pointHoverBackgroundColor: 'rgba(215,25,28,1)',
+            pointHoverBorderColor: 'rgba(0,0,0,0.2)',
+            pointHoverBackgroundColor: 'rgba(253,174,97,0.9)',
 
             pointHitRadius:70,
 
             backgroundColor: 'rgba(215,25,28,0.04)',
             fill: 'origin',  // A bit pointless if only one measure
-
             data: dataValues
           }];
 
